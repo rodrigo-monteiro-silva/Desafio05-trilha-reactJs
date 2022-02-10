@@ -1,1 +1,13 @@
-// TODO
+.headerContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 0.65rem;
+
+  a {
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
